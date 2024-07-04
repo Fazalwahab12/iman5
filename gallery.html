@@ -143,6 +143,24 @@
     <link rel="icon" href="upload/logo_black.png" sizes="32x32" />
     <link rel="icon" href="upload/logo_black.png" sizes="192x192" />
     <link rel="apple-touch-icon" href="upload/logo_black.png" />
+    <style>
+      .property-description {
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.6;
+      }
+
+      .property-description ul {
+        list-style-type: none;
+        padding-left: 0;
+      }
+
+      .property-description ul li::before {
+        content: "\2022"; /* Bullet point */
+        margin-right: 2px;
+        color: #0d0d0e; /* Bullet point color */
+      }
+    </style>
     <meta name="msapplication-TileImage" content="upload/logo_black.png" />
   </head>
 
@@ -276,7 +294,7 @@
               </li>
               <li class="menu-item"><a href="our-rooms.html">Our Rooms</a></li>
               <li class="menu-item"><a href="about-us.html">About Us</a></li>
-              <li class="menu-item"><a href="contact.html">Contact</a></li>
+              <li class="menu-item"><a href="contact.html">Contact us</a></li>
               <li class="menu-item">
                 <a href="offer-package.html">Offer &#038; Package</a>
               </li>
@@ -333,27 +351,20 @@
                       <div class="menu-main-menu-container">
                         <ul id="main_menu" class="nav">
                           <li class="menu-item">
-                            <a href="/Services.html">Services</a>
+                            <a href="/">about us</a>
                           </li>
                           <li class="menu-item">
-                            <a href="/Contact.html">Contact us</a>
+                            <a href="/Services.html">Services</a>
                           </li>
+
                           <li class="menu-item">
                             <a href="/WhereTo.html">Where To</a>
                           </li>
                           <li class="menu-item menu-item-has-children">
                             <a href="/gallery.html">Rentals in Paris</a>
-                            <ul class="sub-menu">
-                              <li class="menu-item">
-                                <a href="/gallery.html">Rue Marbeuf</a>
-                              </li>
-                              <li class="menu-item">
-                                <a href="/gallery.html">Rue François</a>
-                              </li>
-                              <li class="menu-item">
-                                <a href="/gallery.html">Rue Clément Marot</a>
-                              </li>
-                            </ul>
+                          </li>
+                          <li class="menu-item">
+                            <a href="/contect-us.html">Contact us</a>
                           </li>
                         </ul>
                       </div>
@@ -429,13 +440,38 @@
                                     data-settings='{"_animation":"fadeInUp","_animation_delay":400,"hoteller_ext_is_scrollme":"false","hoteller_ext_is_smoove":"false","hoteller_ext_is_parallax_mouse":"false","hoteller_ext_is_infinite":"false","hoteller_ext_is_fadeout_animation":"false"}'
                                     data-widget_type="heading.default"
                                   >
-                                    <div class="elementor-widget-container">
-                                      <h5
-                                        class="elementor-heading-title elementor-size-default"
+                                    <div>
+                                      <div class="property-description">
+                                        <p>
+                                          These apartments do not meet your
+                                          expectations? Please tell us more
+                                          about your research (Dates? Number of
+                                          guests? Etc..) <br />
+                                          and we will help you to find the best
+                                          option for your upcoming stay
+                                        </p>
+                                      </div>
+                                      <a
+                                        href="#"
+                                        style="
+                                          display: inline-block;
+                                          padding: 12px 24px;
+                                          background-color: #101113;
+                                          color: white;
+                                          text-decoration: none;
+                                          border-radius: 20px;
+                                          box-shadow: 0 4px 8px
+                                            rgba(0, 0, 0, 0.2);
+                                          transition: transform 0.2s,
+                                            box-shadow 0.2s;
+                                        "
+                                        onmouseover="this.style.transform='translateY(-2px)';
+               this.style.boxShadow='0 6px 10px rgba(0, 0, 0, 0.3)';"
+                                        onmouseout="this.style.transform='translateY(0)';
+              this.style.boxShadow='0 4px 8px rgba(0, 0, 0, 0.2)';"
                                       >
-                                        Discover a collection of luxurious
-                                        residences available for rent
-                                      </h5>
+                                        Contact Us
+                                      </a>
                                     </div>
                                   </div>
                                 </div>
@@ -492,13 +528,24 @@
                                       <div
                                         class="elementor-text-editor elementor-clearfix"
                                       >
-                                        <p>
-                                          Indulge in luxury in the most
-                                          prestigious Avenue of Paris, where
-                                          luxury brands and trendy restaurants
-                                          meet 55 m2 2-bedroom Double living
-                                          room Open dining kitchen
-                                        </p>
+                                        <div>
+                                          <div class="property-description">
+                                            <p>
+                                              Indulge in luxury in the most
+                                              prestigious Avenue of Paris, where
+                                              luxury brands and trendy
+                                              restaurants meet.
+                                            </p>
+                                            `
+
+                                            <ul>
+                                              <li>55 m2</li>
+                                              <li>2-bedroom</li>
+                                              <li>Double living room</li>
+                                              <li>Open dining kitchen</li>
+                                            </ul>
+                                          </div>
+                                        </div>
                                       </div>
                                     </div>
                                   </div>
@@ -730,13 +777,27 @@
                                       <div
                                         class="elementor-text-editor elementor-clearfix"
                                       >
-                                        <p>
-                                          For a comfortable family or friends
-                                          trip, discover our 4-bedroom apartment
-                                          in Champs-Élysées 190m2 4-bedroom with
-                                          their private bathroom Dining kitchen
-                                          Large terrace with a beautiful view
-                                        </p>
+                                        <div>
+                                          <div class="property-description">
+                                            <p>
+                                              For a comfortable family or
+                                              friends trip, discover our
+                                              4-bedroom apartment in
+                                              Champs-Élysées.
+                                            </p>
+                                            <ul>
+                                              <li>190 m2</li>
+                                              <li>
+                                                4-bedroom with private bathrooms
+                                              </li>
+                                              <li>Dining kitchen</li>
+                                              <li>
+                                                Large terrace with a beautiful
+                                                view
+                                              </li>
+                                            </ul>
+                                          </div>
+                                        </div>
                                       </div>
                                     </div>
                                   </div>
@@ -958,13 +1019,24 @@
                                       <div
                                         class="elementor-text-editor elementor-clearfix"
                                       >
-                                        <p>
-                                          Immerse yourself in Parisian luxury in
-                                          this stunning 2 bedroom apartment in
-                                          Champs-Élysées 190m2 2-bedroom with
-                                          their private bathroom Huge living
-                                          room Independent dining room
-                                        </p>
+                                        <div>
+                                          <div class="property-description">
+                                            <p>
+                                              Immerse yourself in Parisian
+                                              luxury in this stunning 2-bedroom
+                                              apartment in Champs-Élysées.
+                                            </p>
+
+                                            <ul>
+                                              <li>190 m2</li>
+                                              <li>
+                                                2-bedroom with private bathrooms
+                                              </li>
+                                              <li>Huge living room</li>
+                                              <li>Independent dining room</li>
+                                            </ul>
+                                          </div>
+                                        </div>
                                       </div>
                                     </div>
                                   </div>
@@ -1127,15 +1199,6 @@
       <div id="footer_wrapper">
         <div id="footer" class=" ">
           <ul class="sidebar_widget four">
-            <li id="text-3" class="widget widget_text">
-              <h2 class="widgettitle"><span>Our Address</span></h2>
-              <div class="textwidget">
-                <p>
-                  Paris,<br />
-                  France<br />
-                </p>
-              </div>
-            </li>
             <li id="text-4" class="widget widget_text">
               <h2 class="widgettitle"><span>For Booking</span></h2>
               <div class="textwidget">
@@ -1144,6 +1207,35 @@
                   contact@artoflivingbyiman.com
                 </p>
               </div>
+              <a
+                href="https://www.instagram.com/yourprofile"
+                target="_blank"
+                style="text-decoration: none"
+              >
+                <div
+                  style="
+                    width: 40px;
+                    height: 40px;
+                    background-color: #000000;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    height="24"
+                    fill="#FFFFFF"
+                  >
+                    <path
+                      d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 2 .3 2.6.5.6.2 1 .5 1.5 1 .4.4.7.8 1 1.5.3.6.4 1.4.5 2.6.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.3 2-.5 2.6-.2.6-.5 1-.9 1.5-.4.4-.8.7-1.4 1-.6.3-1.4.4-2.6.5-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-2-.3-2.6-.5-.6-.2-1-.5-1.5-1-.4-.4-.7-.8-1-1.5-.3-.6-.4-1.4-.5-2.6-.1-1.3-.1-1.7-.1-4.9s0-3.6.1-4.9c.1-1.2.3-2 .5-2.6.2-.6.5-1 .9-1.5.4-.4.8-.7 1.4-1 .6-.3 1.4-.4 2.6-.5 1.3-.1 1.7-.1 4.9-.1m0-2.2C8.7 0 8.2 0 6.9.1c-1.4.1-2.4.3-3.3.7-.9.3-1.6.7-2.4 1.4-.7.7-1.1 1.5-1.4 2.4-.4.9-.6 1.9-.7 3.3C0 8.2 0 8.7 0 12s0 3.8.1 5.1c.1 1.4.3 2.4.7 3.3.3.9.7 1.6 1.4 2.4.7.7 1.5 1.1 2.4 1.4.9.4 1.9.6 3.3.7 1.3.1 1.8.1 5.1.1s3.8 0 5.1-.1c1.4-.1 2.4-.3 3.3-.7.9-.3 1.6-.7 2.4-1.4.7-.7 1.1-1.5 1.4-2.4.4-.9.6-1.9.7-3.3.1-1.3.1-1.8.1-5.1s0-3.8-.1-5.1c-.1-1.4-.3-2.4-.7-3.3-.3-.9-.7-1.6-1.4-2.4-.7-.7-1.5-1.1-2.4-1.4-.9-.4-1.9-.6-3.3-.7-1.3-.1-1.8-.1-5.1-.1zm0 5.8a6.2 6.2 0 1 0 0 12.4 6.2 6.2 0 0 0 0-12.4zm0 10.1a3.9 3.9 0 1 1 0-7.8 3.9 3.9 0 0 1 0 7.8zm6.4-10.8a1.4 1.4 0 1 1 0-2.8 1.4 1.4 0 0 1 0 2.8z"
+                    />
+                  </svg>
+                </div>
+              </a>
             </li>
             <li
               id="mc4wp_form_widget-7"
