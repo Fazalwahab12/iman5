@@ -9626,3 +9626,11 @@ body {
     flex: 1 1 100%; /* Take full width on small screens */
   }
 }
+
+/* Define a unique and descriptive class name */
+.playfair-display-unique-class {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700; /* You can choose a weight between 400 and 900 */
+  font-style: normal; /* Change to 'italic' if you need italic style */
+}
