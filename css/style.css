@@ -9634,3 +9634,24 @@ body {
   font-weight: 700; /* You can choose a weight between 400 and 900 */
   font-style: normal; /* Change to 'italic' if you need italic style */
 }
+/* General styles for the logo */
+.logo_container {
+  /* Add any general styles for the logo container here */
+}
+
+.logo_align {
+  /* Add any general styles for the logo alignment here */
+}
+
+.logo_wrapper {
+  /* Add any general styles for the logo wrapper here */
+}
+
+/* Mobile styles */
+@media only screen and (max-width: 768px) {
+  #logo_transparent .logo_wrapper img {
+    width: 50px; /* Half of the original width */
+    height: 20px; /* Half of the original height */
+    margin-left: 4px; /* Margin left of 4 units */
+  }
+}
