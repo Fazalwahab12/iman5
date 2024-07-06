@@ -9,7 +9,7 @@
       content="width=device-width, initial-scale=1, maximum-scale=1"
     />
     <meta name="format-detection" content="telephone=no" />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/reset.css" type="text/css" media="all" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -120,6 +120,7 @@
       type="text/css"
       media="all"
     />
+   
     <link
       rel="stylesheet"
       href="js/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css?ver=4.7.0"
@@ -169,181 +170,31 @@
           />
         </div>
       </div>
-      <div class="loader-section section-fade"></div>
-      <div class="loader-close-button" style="display: none">
-        <span class="screen-reader-text">Close</span>
-      </div>
+     
     </div>
-    <div id="perspective">
-      <input
-        type="hidden"
-        id="pp_menu_layout"
-        name="pp_menu_layout"
-        value="centeralign2"
-      />
-      <input
-        type="hidden"
-        id="pp_enable_right_click"
-        name="pp_enable_right_click"
-        value=""
-      />
-      <input
-        type="hidden"
-        id="pp_enable_dragging"
-        name="pp_enable_dragging"
-        value=""
-      />
-      <input
-        type="hidden"
-        id="pp_image_path"
-        name="pp_image_path"
-        value="images/"
-      />
-      <input
-        type="hidden"
-        id="pp_homepage_url"
-        name="pp_homepage_url"
-        value="index.html"
-      />
-      <input type="hidden" id="pp_fixed_menu" name="pp_fixed_menu" value="" />
-      <input
-        type="hidden"
-        id="tg_sidebar_sticky"
-        name="tg_sidebar_sticky"
-        value="1"
-      />
-      <input type="hidden" id="pp_topbar" name="pp_topbar" value="" />
-      <input
-        type="hidden"
-        id="post_client_column"
-        name="post_client_column"
-        value="4"
-      />
-      <input type="hidden" id="pp_back" name="pp_back" value="Back" />
-      <input
-        type="hidden"
-        id="tg_lightbox_thumbnails"
-        name="tg_lightbox_thumbnails"
-        value="thumbnail"
-      />
-      <input
-        type="hidden"
-        id="tg_lightbox_thumbnails_display"
-        name="tg_lightbox_thumbnails_display"
-        value="1"
-      />
-      <input
-        type="hidden"
-        id="tg_lightbox_timer"
-        name="tg_lightbox_timer"
-        value="7000"
-      />
-      <input
-        type="hidden"
-        id="tg_header_content"
-        name="tg_header_content"
-        value="menu"
-      />
-      <input
-        type="hidden"
-        id="tg_live_builder"
-        name="tg_live_builder"
-        value="0"
-      />
-      <input
-        type="hidden"
-        id="pp_footer_style"
-        name="pp_footer_style"
-        value="4"
-      />
+    
 
-      <!-- Begin mobile menu -->
-      <a id="close_mobile_menu" href="javascript:;"></a>
-      <div class="mobile_menu_wrapper">
-        <div class="mobile_menu_content">
-          <div class="menu-side-mobile-menu-container">
-            <ul id="mobile_main_menu" class="mobile_main_nav">
-              <li
-                class="menu-item menu-item-home current-menu-item current_page_item"
-              >
-                <a href="index.html" aria-current="page">Home</a>
-              </li>
-          
-              <li class="menu-item">
 
-              </li>
-          
-              </li>
-        
-            </ul>
-          </div>
-        </div>
-      </div>
-      <!-- End mobile menu -->
+      
       <!-- Begin template wrapper -->
       <div style="background-color:black ;"  id="wrapper" class="hasbg transparent">
-        <div class="header_style_wrapper">
-          <!-- End top bar -->
+       
+        <div class="topnav" id="myTopnav">
+          <a href="/" class="active" style="margin-left: 20px">
+            <img src="upload/logo.png" alt="" width="100" height="40"
+          /></a>
 
-          <div class="top_bar hasbg">
-            
-            <div id="logo_wrapper">
-              <div id="menu_wrapper">
-                
-                <div id="nav_wrapper"  style="margin-right: 20px;">
-                  <div id="logo_transparent" class="logo_container" >
-                    <div class="logo_align" >
-                      <a
-                        id="custom_logo_transparent"
-                        class="logo_wrapper default"
-                        href="index.html"
-                      >
-                        <img src="upload/logo.png" alt="" width="100" height="40" />
-                      </a>
-                    </div>
-                  </div>
-                  <div class="nav_wrapper_inner" >
-                    <div id="menu_border_wrapper" style="margin-left: 250px; text-align: center;">
-                        <!-- <a href="javascript:;" id="mobile_nav_icon"><span class="ti-menu"></span></a> -->
-                        <div class="menu-main-menu-container">
-                            <ul id="main_menu" class="nav">
-                              <li class="menu-item"> 
-                                <a href="/">about us</a>
-                            </li>
-                                <li class="menu-item"> 
-                                    <a href="/Services.html">Services</a>
-                                </li>
-                                
-                                <li class="menu-item">
-                                    <a href="/WhereTo.html">Where To</a>
-                                </li>
-                                <li class="menu-item menu-item-has-children">
-                                    <a href="/gallery.html">Rentals in Paris</a>
-                                    
-                                </li>
-                                <li class="menu-item">
-                                  <a href="/contect-us.html">Contact us</a>
-                              </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                
+          <a href="/" class="about-us-link" >about us</a>
 
-
-
-                </div>
-                <!-- End main nav -->
-              </div>
-
-           
-
-            
-              <!-- End logo -->
-            </div>
+          <a href="/Services.html">Services</a>
+          <a href="/WhereTo.html">Where To</a>
+          <a href="/gallery.html">Rentals in Paris</a>
+          <a href="/contect-us.html">Contact us</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
           </div>
         </div>
-
         <!-- Begin content -->
         <div  id="page_content_wrapper" class="noheader">
           <div class="inner">
@@ -410,7 +261,8 @@
                           </div>
                         </div>
                       </section>
-                      <h1 class="playfair-display-unique-class">About us</h1>
+                      <h1 class="playfair-display-unique-class" style="margin-bottom: 29px;">About us</h1>
+
                       <section
                       style="background-color:black ; color: white;"
                         class="elementor-section elementor-top-section elementor-element elementor-element-65db93bf elementor-section-stretched elementor-section-full_width elementor-section-height-default elementor-section-height-default"
@@ -465,7 +317,7 @@
                                                 >
                                                   <h2
                                                   style="color:white"
-                                                    class="elementor-heading-title elementor-size-default"
+                                                    class="playfair-display-unique-class"
                                                   >
                                                     Experience Unparalleled
                                                     Luxury!
@@ -486,8 +338,7 @@
                                                     class="elementor-text-editor elementor-clearfix"
                                                   >
                                                     <p>
-                                                      Our mission is to curate unforgettable experience…" to something more personal, positioning as a fixer rather than an agency
-                                                    </p>
+                                                      We extend our heartfelt gratitude to our exclusive network of direct partners in Paris, Saint-Tropez, Courchevel, Ibiza, Madrid, and Dubai. Thanks to your exceptional support, we are able to help our clients find their dream villas, secure last-minute reservations at restaurants and clubs, and much more. Beyond that, we can organize tailor-made experiences and trips all around the world—clients simply need to ask. Thank you for making this possible!  </p>
                                                   </div>
                                                 </div>
                                               </div>
@@ -756,6 +607,16 @@
       src="js/ui/widget.min.js"
       id="jquery-ui-widget-js"
     ></script>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
     <script
       type="text/javascript"
       src="js/ui/mouse.min.js"
